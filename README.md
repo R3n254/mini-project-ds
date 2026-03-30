@@ -2,7 +2,7 @@
 
 ## Program Overview
 This program is used to manage tasks using three data structures:
-- Queue for normal tasks (FIFO)
+- Queue for normal tasks 
 - Deque for priority tasks
 - Stack for undo
 
