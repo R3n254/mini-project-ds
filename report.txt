@@ -1,1 +1,43 @@
+1. Program Overview
+This program manages tasks using stack, queue, and deque.
+Queue is used for normal tasks, deque for priority tasks, and stack for undo.
 
+2. Data Structures
+
+Stack:
+Used for undo.
+Last action is removed first (LIFO).
+
+Queue:
+Used for normal tasks.
+First task added is processed first (FIFO).
+
+Deque:
+Used for priority tasks.
+Tasks are added to the front.
+
+3. Program Logic
+When user inputs a task:
+- Normal tasks go to queue
+- Priority tasks go to deque
+
+When processing:
+- Deque is checked first
+- If empty, queue is used
+
+Stack records every action for undo.
+
+4. Testing
+I tested:
+- Adding tasks
+- Processing tasks
+- Undo
+- Empty condition
+
+The program works correctly:
+- Priority tasks are processed first
+- Queue follows FIFO
+- Undo follows LIFO
+
+5. Conclusion
+The program successfully demonstrates the use of stack, queue, and deque in a simple task system.
