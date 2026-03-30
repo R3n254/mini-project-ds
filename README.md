@@ -30,12 +30,12 @@ Input:
 5  
 
 Output:
-Priority:
-Task X
+--- Priority Tasks (Deque) ---
+- Task X
 
-Queue:
-Task A  
-Task B  
+--- Normal Tasks (Queue) ---
+- Task A  
+- Task B  
 
 ## Input to Output
 User input is checked:
